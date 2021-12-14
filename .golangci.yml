@@ -1,0 +1,26 @@
+run:
+  deadline: 5m
+  build-tags:
+    - integration
+linters:
+  enable:
+    - bodyclose
+    - gochecknoinits
+    - gochecknoglobals
+    - gocritic
+    - gocyclo
+    - godot
+    - gofmt
+    - goimports
+    - golint
+    - gosec
+    - lll
+    - misspell
+    - nestif
+    - testpackage
+    - unparam
+    - whitespace
+    - wsl
+issues:
+  include:
+    - EXC0002
